@@ -11,3 +11,4 @@
 !/data/restore/.gitkeep
 
 /dist
+/coverage
