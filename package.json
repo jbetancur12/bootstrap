@@ -26,7 +26,6 @@
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0-beta.51",
-    "@fortawesome/fontawesome-free": "^5.7.2",
     "amphtml-validator": "^1.0.23",
     "autoprefixer": "^9.4.0",
     "babel-core": "^7.0.0-bridge.0",
