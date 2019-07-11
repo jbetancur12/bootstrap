@@ -4,6 +4,9 @@
 
 /.fusion
 
+/resources/dist
+resources/dist/**
+
 /data/db/
 /data/dumps/**
 !/data/dumps/.gitkeep
