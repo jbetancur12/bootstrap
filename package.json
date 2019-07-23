@@ -81,9 +81,6 @@
   },
   "author": "Arc Publishing",
   "license": "ISC",
-  "dependencies": {
-    "@arc-core-components/tools_arc-frame-bem": "0.1.0-beta.1"
-  },
   "lint-staged": {
     "*.{js,json,css,scss,md,graphql}": [
       "prettier --write",
