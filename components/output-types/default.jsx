@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+import getProperties from "fusion:properties";
 
 const DefaultOutputType = props => {
   const {
+    arcSite = getProperties().sites[0],
     children,
     contextPath,
     deployment,
@@ -19,6 +21,12 @@ const DefaultOutputType = props => {
         <Libs />
         <CssLinks />
         <link
+          rel="stylesheet"
+          href={deployment(
+            `${contextPath}/resources/dist/${arcSite}/css/style.css`
+          )}
+        />
+        <link
           rel="icon"
           type="image/x-icon"
           href={deployment(`${contextPath}/resources/favicon.ico`)}
@@ -33,6 +41,7 @@ const DefaultOutputType = props => {
 };
 
 DefaultOutputType.propTypes = {
+  arcSite: PropTypes.string,
   children: PropTypes.node,
   contextPath: PropTypes.string,
   deployment: PropTypes.func,
