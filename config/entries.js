@@ -15,8 +15,4 @@ buildSites.forEach(site => {
   entries[site] = `./src/websites/${site}/${site}.scss`;
 });
 
-// Build the index
-console.log(chalk.yellow("Building base assets..."));
-entries.base = "./src/base/_base.scss";
-
 module.exports = entries;
