@@ -91,15 +91,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-push": "npm run lint && npm run test"
     }
   },
   "eslintConfig": {
     "extends": [
       "airbnb-base",
       "plugin:react/recommended",
-      "plugin:jest/recommended",
-      "plugin:prettier/recommended"
+      "plugin:jest/recommended"
     ],
     "parser": "babel-eslint",
     "parserOptions": {
@@ -122,17 +121,6 @@
     },
     "rules": {
       "import/no-unresolved": "off",
-      "import/extensions": [
-        ".js",
-        ".jsx",
-        ".json",
-        ".css",
-        ".scss"
-      ],
-      "arrow-body-style": [
-        "error",
-        "always"
-      ],
       "import/no-extraneous-dependencies": [
         "error",
         {

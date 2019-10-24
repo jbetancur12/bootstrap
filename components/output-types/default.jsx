@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import getProperties from "fusion:properties";
+import React from 'react';
+import PropTypes from 'prop-types';
+import getProperties from 'fusion:properties';
 
-const DefaultOutputType = props => {
+const DefaultOutputType = (props) => {
   const {
     arcSite = getProperties().sites[0],
     children,
@@ -11,7 +11,7 @@ const DefaultOutputType = props => {
     CssLinks,
     Fusion,
     Libs,
-    MetaTags
+    MetaTags,
   } = props;
   return (
     <html>
@@ -23,7 +23,7 @@ const DefaultOutputType = props => {
         <link
           rel="stylesheet"
           href={deployment(
-            `${contextPath}/resources/dist/${arcSite}/css/style.css`
+            `${contextPath}/resources/dist/${arcSite}/css/style.css`,
           )}
         />
         <link
@@ -48,7 +48,7 @@ DefaultOutputType.propTypes = {
   CssLinks: PropTypes.object,
   Fusion: PropTypes.func,
   Libs: PropTypes.array,
-  MetaTags: PropTypes.object
+  MetaTags: PropTypes.object,
 };
 
 export default DefaultOutputType;

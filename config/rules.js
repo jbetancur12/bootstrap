@@ -45,7 +45,7 @@ module.exports = env => {
           loader: "postcss-loader",
           options: {
             ident: "postcss",
-            plugins: [autoprefixer, require("css-mqpacker")]
+            plugins: [autoprefixer, require("css-mqpacker")({ sort: true })]
           }
         },
         {

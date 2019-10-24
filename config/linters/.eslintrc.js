@@ -12,8 +12,14 @@ module.exports = {
   settings: {
     "import/resolver": {
       webpack: {
-        config: `${PATHS.config}/webpack/tasks/webpack.base.js`
+        config: `${PATHS.config}/webpack.base.js`
+      },
+      node: {
+        extensions: [".js", ".jsx"]
       }
+    },
+    react: {
+      version: "detect"
     }
   },
   extends: [
