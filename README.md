@@ -2,29 +2,27 @@
 
 The StarterPack Repo is the place to start out Fusion projects with the base structure and build processes set up by the ARC Professional Services team.
 
-It is a collection of Fusion implementations of features and content sources. When possible, this repo uses ARC Core Components within the implementations.
-
 Documentation in this repo will walk you through site-specific tasks, such as adding styles and fonts to your sites, and how to use certain features.
 
 #### What you'll be doing in the attached documentation
 
-The recipes and documents contained in the Skeleton repo will focus on helping you set up a single page within PageBuilder, and getting it to work across multiple sites.
+The recipes and documents contained in this repo will focus on helping you set up a single page within PageBuilder, and getting it to work across multiple sites.
 
 It is designed to teach you the important principles of setting up your organization's repo: Interacting with styles and javascript, and getting a feeling for how feature code should be organized.
 
 > **Please note:**
 > If you are someone who has a Content API, and you would like to know how to hook up your Fusion project to your organization's content, please [follow the excellent Fusion Recipes for all the information you could possibly need](https://redirector.arcpublishing.com/alc/arc-products/pagebuilder/fusion/). In fact, we highly recommend going through every word available to you before starting your project.
 >
-> In particular, you will need to create a `.env` file, with credentials, to use the content sources included within the Skeleton Repo.
+> In particular, you will need to create a `.env` file, with credentials, to use the content sources included within the repo.
 > **Please note:**
 >
 > If you get a Docker error while running the repo locally, try adding the `FUSION_RELEASE` variable into your `.env` file.
 >
-> **None of the content sources included within the Skeleton Repo will work without a `.env` file that has the credentials to your Content API.**
+> **None of the content sources included within the repo will work without a `.env` file that has the credentials to your Content API.**
 
 ### **🚧 Still under construction**
 
-Please note that the Skeleton repo is still under active development, and is subject to change frequently.
+Please note that the repo is still under active development, and is subject to change frequently.
 
 ## System requirements
 
@@ -41,7 +39,7 @@ You also need to have Node > 8 installed, so you can use `npx` listed in these c
 1. Go ahead and copy this repo. Clone it down, change the origin, and update all the values to be your own, then push it up. We're working on a way to streamline this process better, but for now the following will work:
 
 ```bash
-git clone git@github.com:wapopartners/Skeleton-PageBuilder-Fusion-Features.git MyFusionFeaturesDirectory
+git clone git@github.com:wapopartners/StarterPack-PageBuilder-Fusion-Features.git MyFusionFeaturesDirectory
 # replace MyFusionFeaturesDirectory with a meaningful name for your copy of the repository
 
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
@@ -56,9 +54,9 @@ You now have your own copy of this repository from which you can build new fusio
 
 ## Starting from a Database
 
-If you're starting with the Skeleton Repo for the very first time, it is recommended that you start it up with a small database to get a feel for how the pieces work together.
+If you're starting with the repo for the very first time, it is recommended that you start it up with a small database to get a feel for how the pieces work together.
 
-After you start up fusion on the Skeleton repo, take the folder called `GettingStartedDBDump.tar.gz` within `/documentation/artifacts` folder and drag (or copy/paste) it into your `/data/restore` folder. This will trigger PageBuilder Fusion to take the Getting Started database and import it locally. You'll wind up with a single PageBuilder page called `sample-page`.
+After you start up fusion on the repo, take the folder called `GettingStartedDBDump.tar.gz` within `/documentation/artifacts` folder and drag (or copy/paste) it into your `/data/restore` folder. This will trigger PageBuilder Fusion to take the Getting Started database and import it locally. You'll wind up with a single PageBuilder page called `sample-page`.
 
 Alternatively, you can set up your own pages by following the Fusion recipes.
 
