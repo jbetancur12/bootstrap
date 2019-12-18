@@ -50,7 +50,7 @@ jobs:
       - run:
           name: Generate the bundle zip
           command: |
-            zip config/deploy/bundle.zip -r . -x .git/\* node_modules/\* coverage/\* .github/\* .fusion/\* .circleci/\* .dist/\* src/\* .stylelintrc.json documentation/\*
+            zip config/deploy/bundle.zip -r . -x .git/\* .env node_modules/\* coverage/\* .github/\* .fusion/\* .circleci/\* .dist/\* src/\* .stylelintrc.json documentation/\*
       - persist_to_workspace:
           root: config
           paths:
