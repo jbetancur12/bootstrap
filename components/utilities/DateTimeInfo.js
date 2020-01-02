@@ -5,7 +5,7 @@ const DateTimeInfo = (date, relative = false, localeString = 'es-CO') => {
     // year: 'numeric',
     day: 'numeric',
     month: 'long',
-    weekday: 'long'
+    weekday: 'long',
   };
   if (relative) {
     const now = new Date();

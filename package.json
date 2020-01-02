@@ -89,11 +89,6 @@
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint && npm run test"
-    }
-  },
   "eslintConfig": {
     "extends": [
       "airbnb-base",
