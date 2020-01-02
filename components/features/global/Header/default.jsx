@@ -6,14 +6,10 @@ class Header extends React.Component {
   constructor() {
     super();
 
-    this.state = {
-      displayMenu: false,
+    this.state = {  
       menu: false
     };
-   
   }
-
-  
 
   render() {
     const date = new Date();
@@ -130,13 +126,11 @@ class Header extends React.Component {
                           aria-labelledby="navbarDropdownMenuLink"
                           className=" text-left bg-dark"
                         >
-                         
                           <table className="table table-dark table-sm mt-3 ">
-                            
                             <tbody>
-                              <tr >
+                              <tr>
                                 <td>Politica</td>
-                                <td >Medio Ambiente</td>
+                                <td>Medio Ambiente</td>
                               </tr>
                               <tr>
                                 <td>Investigación</td>
@@ -249,36 +243,6 @@ class Header extends React.Component {
             ) : null}
           </div>
         </div>
-        <div className="row my-4">
-          {this.state.displayMenu ? (
-            <ul style={{ listStyle: "none", background: "black" }}>
-              <li>
-                <a className="active" href="#Create Page">
-                  Create Page
-                </a>
-              </li>
-              <li>
-                <a href="#Manage Pages">Manage Pages</a>
-              </li>
-              <li>
-                <a href="#Create Ads">Create Ads</a>
-              </li>
-              <li>
-                <a href="#Manage Ads">Manage Ads</a>
-              </li>
-              <li>
-                <a href="#Activity Logs">Activity Logs</a>
-              </li>
-              <li>
-                <a href="#Setting">Setting</a>
-              </li>
-              <li>
-                <a href="#Log Out">Log Out</a>
-              </li>
-            </ul>
-          ) : null}
-        </div>
-
       </div>
     );
   }
