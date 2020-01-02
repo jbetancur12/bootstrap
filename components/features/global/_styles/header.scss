@@ -1,0 +1,231 @@
+body {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.social-preset {
+  display: inline-block;
+  margin: 5px 0;
+  list-style: none;
+  i {
+    background: #999;
+    border-radius: 50%;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    &.fa-twitter {
+      background: #00b1ec;
+    }
+    &.fa-instagram {
+      background: #125688;
+    }
+    &.fa-facebook {
+      background: #3b579e;
+    }
+  }
+}
+
+.leaf {
+  display: inline-block;
+  margin: 0 5px;
+  i {
+    background: #999;
+    border-radius: 50%;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    &.fa-twitter:hover {
+      background: #00b1ec;
+    }
+    &.fa-instagram:hover {
+      background: #125688;
+    }
+    &.fa-youtube-play:hover {
+      background: #cd1724;
+    }
+    &.fa-facebook:hover {
+      background: #3b579e;
+    }
+  }
+}
+
+.btn {
+  &:hover {
+    border: 1px solid #d1d1d1;
+    background: #f3f3f3;
+    color: #000;
+  }
+}
+
+table {
+  td {
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+    }
+  }
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  padding: 0 5px;
+  color: #999999;
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(138, 38, 38, 0),
+  //   rgba(254, 254, 254, 0.917805) 46%,
+  //   rgb(228, 10, 10) 100%
+  // );
+  background: linear-gradient(
+    90deg,
+    #999,
+    rgba(254, 254, 254, 0.917805) 86%,
+    #fff 100%
+  );
+
+  /* clip hackery */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   bottom: 0;
+  //   right: 0;
+  //   width: 78%;
+  //   height: 100%;
+  //   background-size: 100%;
+  //   background: linear-gradient(
+  //     90deg,
+  //     rgba(255, 255, 255, 0) 0,
+  //     rgba(254, 254, 254, 0.917805) 46%,
+  //     #fff 100%
+  //   );
+  // }
+}
+
+.img-cap {
+  background-image: url("https://www.elespectador.com/sites/default/files/congo_2.jpg");
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  .img-cap-bm {
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    height: auto;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  div {
+    margin-right: 40px;
+    background: lightgray;
+    height: auto;
+    padding: 0 20px;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+
+.comments {
+  margin-top: 30px;
+  margin-left: -7px;
+  background: #fcc314;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 11px 50px 11px 48px;
+  position: relative;
+  text-transform: capitalize;
+  width: 100%;
+  &:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 20px;
+    background: url(../images/typing.svg) no-repeat;
+    display: block;
+    left: 3%;
+    margin-top: 0.5%;
+  }
+  &:after {
+    color: #000;
+    font-size: 1.875rem;
+    content: "";
+    font-family: Econs;
+    width: 15px;
+    height: 15px;
+    margin-right: -10px;
+    position: relative;
+    right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    transform-origin: 66% 66%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    border-bottom: solid 2px #000;
+    border-right: solid 2px #000;
+  }
+}
+
+.intro {
+  margin-top: 38px;
+  font-weight: 700;
+  color: #333;
+}
+
+.subintro {
+  max-width: 90%;
+  margin-bottom: 22px;
+}
+
+.mensaje-error {
+  padding: 20px 26px;
+  font-size: 14px;
+  color: #bf0811;
+  background: #fac1c1;
+  font-weight: 600;
+  margin-bottom: 18px;
+  line-height: 24px;
+}
+
+.comment-head {
+  font-size: 1.125rem;
+  color: #59b2f7;
+  text-shadow: 0 0;
+  span {
+    font-size: 0.75rem;
+    color: #666;
+    margin-left: 10px;
+  }
+}
