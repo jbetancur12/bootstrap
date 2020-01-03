@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
 
-import Dropdown from "../Header/_children/Dropdown"
-
 const RegisterForm = props => {
   const logoUrl =
     "https://www.elespectador.com/profiles/ee/modules/features/ft_ee_menus/img/logo-elespectador.png";
@@ -69,7 +67,7 @@ const RegisterForm = props => {
               de El Espectador.
             </p>
           </div>
-          <Dropdown/>
+         
         </div>
         <div className="col-5 offset-1 mt-3">
           <form>
