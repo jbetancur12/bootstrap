@@ -54,11 +54,11 @@ const Article = props => {
         </div>
         <div className="col-6" >
           <div className="breadcrumbs ">
-            <a href="/" data-key="home">
+            <a href="/" data-key="home" style={{color: "red"}}>
               Inicio
             </a>
             <span>/</span>
-            <a href="/secciones/libros">libros</a>
+            <a href="/secciones/libros" style={{color: "red"}}>libros</a>
             <span>/</span>
             <span className="text-gradient">
               el ebola ha matado mas de 2000 personas en el congo desde agosto
@@ -72,7 +72,7 @@ const Article = props => {
           </h1>
           <div>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <a href="https://www.elespectador.com/secciones/libros">
+              <a href="https://www.elespectador.com/secciones/libros" style={{color: "red"}}>
                 Libros 29 Dic 2019 - 12:30 PM
               </a>
               <span>Por: * Redacción AFP</span>
