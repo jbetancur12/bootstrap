@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Homepage = props => {
   return (
     <Fragment>
-      <div className="row">{props.children[0]}</div>
+      <div className="row mb-5">{props.children[0]}</div>
       <>{props.children[1]}</>
       <footer className="row">{props.children[2]}</footer>
     </Fragment>

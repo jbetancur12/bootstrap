@@ -67,7 +67,6 @@ const RegisterForm = props => {
               de El Espectador.
             </p>
           </div>
-         
         </div>
         <div className="col-5 offset-1 mt-3">
           <form>
