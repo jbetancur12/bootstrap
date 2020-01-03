@@ -1,0 +1,47 @@
+/* stylelint-disable */
+
+.img-degrade {  
+  background-image: url("https://www.elespectador.com/sites/default/files/styles/special_custom_user_md_1x/public/bisbal._efe_2020.jpg?itok=xPaErFB5&timestamp=1577990091");
+  height: 250px;
+  background-size: auto;
+  
+  margin-bottom: 15px;
+  .img-degrade-bm {
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    color: white;
+    height: 100%;
+    background: rgba(149,64,133,1);
+    background: -moz-linear-gradient(left, rgba(149,64,133,1) 48%, rgba(149,64,133,1) 63%, rgba(167,96,153,1) 66%, rgba(255,255,255,0.02) 81%);
+    background: -webkit-gradient(left top, right top, color-stop(48%, rgba(149,64,133,1)), color-stop(63%, rgba(149,64,133,1)), color-stop(66%, rgba(167,96,153,1)), color-stop(81%, rgba(255,255,255,0.02)));
+    background: -webkit-linear-gradient(left, rgba(149,64,133,1) 48%, rgba(149,64,133,1) 63%, rgba(167,96,153,1) 66%, rgba(255,255,255,0.02) 81%);
+    background: -o-linear-gradient(left, rgba(149,64,133,1) 48%, rgba(149,64,133,1) 63%, rgba(167,96,153,1) 66%, rgba(255,255,255,0.02) 81%);
+    background: -ms-linear-gradient(left, rgba(149,64,133,1) 48%, rgba(149,64,133,1) 63%, rgba(167,96,153,1) 66%, rgba(255,255,255,0.02) 81%);
+    background: linear-gradient(to right, rgba(149,64,133,1) 48%, rgba(149,64,133,1) 63%, rgba(167,96,153,1) 66%, rgba(255,255,255,0.02) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#954085', endColorstr='#ffffff', GradientType=1 );
+
+  }
+} 
+.ad-space-top {
+  margin-top: 20px;  
+  background-color: #f7f9f9;
+  text-align: center;
+  height: 313px;
+  width: 100%;
+}
+.article-not-img{
+  background-color:#5385bb;
+  color:#ffffff;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+
+}
+.article-border{
+border-bottom: 2px solid #5385bb;
+padding-bottom: 15px;
+margin-bottom: 15px;
+}

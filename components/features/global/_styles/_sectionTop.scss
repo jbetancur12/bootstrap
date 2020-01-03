@@ -1,0 +1,37 @@
+/* stylelint-disable */
+
+.img-cap {  
+  background-image: url("https://www.elespectador.com/sites/default/files/congo_2.jpg");
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  .img-cap-bm {
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    height: auto;
+  }
+} 
+.ad-space-top {
+  margin-top: 20px;  
+  background-color: #f7f9f9;
+  text-align: center;
+  height: 313px;
+  width: 100%;
+}
+.article-not-img{
+  background-color:#5385bb;
+  color:#ffffff;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+
+}
+.article-border{
+border-bottom: 2px solid #5385bb;
+padding-bottom: 15px;
+margin-bottom: 15px;
+}

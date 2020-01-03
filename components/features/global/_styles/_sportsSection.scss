@@ -1,0 +1,39 @@
+/* stylelint-disable */
+
+.img-sports {  
+  background-image: url("https://www.elespectador.com/sites/default/files/styles/main_custom_user_md_1x/public/513340556_30769941.jpg?itok=LJK6L9PP&timestamp=1577999923");
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  background-size: cover;
+  .img-sports-bm {
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    height: auto;
+    width: 100%;
+  }
+} 
+.ad-space-top {
+  margin-top: 20px;  
+  background-color: #f7f9f9;
+  text-align: center;
+  height: 313px;
+  width: 100%;
+}
+.article-not-img{
+  background-color:#5385bb;
+  color:#ffffff;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+
+}
+.article-border{
+border-bottom: 2px solid #5385bb;
+padding-bottom: 15px;
+margin-bottom: 15px;
+}
