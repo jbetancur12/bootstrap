@@ -14,6 +14,14 @@ import "../features/global/_styles/custom.css";
 
 import "../features/global/_styles/header.scss";
 import "../features/global/_styles/_register.scss";
+import "../features/global/_styles/_sectionTop.scss";
+import "../features/global/_styles/_sectionGeneral.scss";
+import "../features/global/_styles/_secondGeneralSection.scss";
+import "../features/global/_styles/_sportsSection.scss";
+
+
+
+
 
 const DefaultOutputType = props => {
   const {
