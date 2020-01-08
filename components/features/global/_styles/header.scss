@@ -36,6 +36,17 @@ body {
 .leaf {
   display: inline-block;
   margin: 0 5px;
+  &.tv-icon{
+    content: "";
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background-image: url("https://www.elespectador.com/profiles/ee/themes/custom/elespectador/images/parrillatv.svg");
+    background-position: center;
+    background-size: 100%;
+    right: 0;
+    top: 0;
+  }
   i {
     background: #999;
     border-radius: 50%;
@@ -45,6 +56,14 @@ body {
     text-align: center;
     width: 35px;
     transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    &.fa-lock{
+      background: #fcc314;
+      color: #000;
+      &:hover{
+        background: #999;
+        color: #fff
+      }
+    }
     &.fa-twitter:hover {
       background: #00b1ec;
     }
@@ -227,5 +246,61 @@ table {
     font-size: 0.75rem;
     color: #666;
     margin-left: 10px;
+  }
+}
+
+.navbar-ee {
+  width: 100%;
+  display: block;
+
+  text-align: center;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    li {
+      float: left;
+      a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
+
+.flex_container {
+  width: 400px;
+  display: flex;
+  ul {
+    padding-top: 10px;
+    width: 100%;
+    min-width: 300px;
+    li {
+      width: 50%;
+      float: left;
+      text-align: left;
+      border-bottom: 1px solid #2c2c2c;
+    }
+  }
+}
+
+.flex_container-deportes {
+  width: 200px;
+  display: flex;
+  ul {
+    padding-top: 10px;
+    width: 100%;
+    li {
+      text-align: left;
+      border-bottom: 1px solid #2c2c2c;
+    }
   }
 }
